@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Добавить задачу</h1>
+        <div class="container__list">
+            <input type="text" name="textList" id="textInput">
+            <button id="addTextBtn">Добавить</button>
+        </div>
+        <p id="errorOne"></p>
+        <div class="container__notext">
+            <p class="container__notext-text">Нет задач</p>
+        </div>
+        <div class="container__textlist">
+            <div class="block">
+                <h4>Список задач</h4>
+                <ul id="textUl">
+                </ul>
+            </div>
+        </div>
+        <div class="container__delete">
+            <button id="delText">Очистить список задач</button>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+.container__textlist {
+    display: none;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+}
